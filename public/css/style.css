@@ -1,0 +1,92 @@
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  background-color: teal;
+  padding: 5px 10px 5px 10px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* LOGO */
+.logo {
+  width: 100%;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 18px;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: #080d0d;
+  border-radius: 40px;
+  transition: 0.5s ease;
+  text-align: center;
+  color: black;
+}
+
+.menu li {
+  list-style: none;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+img{
+    width: 10%;
+}
+
+.conteneur{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.tableaud{
+    width: 100%;
+}
+
+.formulaire{
+    width: 100%;
+}
+
+table{
+    border-collapse:collapse;
+    width:100%;
+}
+
+.blue{
+    border:2px solid #1ABC9C;
+  }
+
+  .blue thead{
+    background:#1ABC9C;
+  }
+
+  thead{
+    color:white;
+  }
+
+  th,td{
+    text-align:center;
+    padding:5px 0;
+  }
+
+  tbody tr:nth-child(even){
+    background:#ECF0F1;
+  }
+
+  tbody tr:hover{
+  background:#BDC3C7;
+    color:#FFFFFF;
+  }
+
